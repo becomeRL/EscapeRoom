@@ -1,0 +1,14 @@
+img.rotation {
+    animation: target_image 10s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    width: 100px;
+    height: 100px;
+}
+    
+@keyframes target_image {
+    0% {opacity: 1;}
+    100% {opacity: 0;
+        transform: rotate(360deg);
+    } 
+}
